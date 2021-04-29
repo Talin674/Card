@@ -8,7 +8,6 @@ class BJ_Card(cards.Card):
             v = BJ_Card.RANKS.index(self.rank) + 1
             if v > 10:
                 v = 10
-                print("D")
         else:
             v = None
         return v
